@@ -2,6 +2,7 @@
 # -*- coding:gbk -*-
 
 import requests
+import traceback
 
 def download(url):
     content = ""
