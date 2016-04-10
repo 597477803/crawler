@@ -2,3 +2,11 @@
 # -*- coding:gbk -*-
 
 import requests
+
+def download(url):
+    content = ""
+    try:
+        content = request.get(url).content
+    except:
+        traceback.print_exc()
+    return content
